@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-inside container">
+        <div class="header-top">
+          <div class="header-top-left">
+            <img src="img/Link → SVG.svg" alt="img" />
+            <button>
+              <img src="img/div.catalog-icon_margin.svg" alt="" />
+              Katalog
+            </button>
+          </div>
+          <div class="header-top-center">
+            <input type="text" id="searchInput" placeholder="Mahsulotlar va turkumlar izlash" />
+            <button><i class="bx bx-search-alt-2"></i></button>
+          </div>
+          <div class="header-top-right">
+            <p><i class="bx bx-user"></i>Kirish</p>
+            <p><i class="bx bx-heart"></i>Saralangan</p>
+            <p><i class="bx bx-shopping-bag"></i>Savat</p>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <img src="img/div.category__body.svg" alt="" />
+          <div class="buttons">
+            <p class="button-value" onclick="clickBtn('Elektronika')">
+              Elektronika
+            </p>
+            <p class="button-value" onclick="clickBtn('Kiyim')">Kiyim</p>
+            <p class="button-value" onclick="clickBtn('Uy-roʻzgʻor buyumlari')">
+              Uy-roʻzgʻor buyumlari
+            </p>
+            <p class="button-value" onclick="clickBtn('Maishiy texnika')">
+              Maishiy texnika
+            </p>
+            <p class="button-value" onclick="clickBtn('Poyabzallar')">
+              Poyabzallar
+            </p>
+            <p class="button-value" onclick="clickBtn('Aksessuarlar')">
+              Aksessuarlar
+            </p>
+            <p
+              class="button-value"
+              onclick="clickBtn('Goʻzallik va parvarish')"
+            >
+              Goʻzallik va parvarish
+            </p>
+            <p class="button-value" onclick="clickBtn('Salomatlik')">
+              Salomatlik
+            </p>
+          </div>
+
+          <select name="yana" id=" yana-id">
+            <option value="">Yana</option>
+            <option value="1">xozircha yo'q</option>
+            <option value="2">xozircha yo'q</option>
+            <option value="3">xozircha yo'q</option>
+            <option value="4">xozircha yo'q</option>
+            <option value="5">xozircha yo'q</option>
+            <option value="6">xozircha yo'q</option>
+            <option value="7">xozircha yo'q</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero-inside container">
+        <div class="hero-top">
+          <img class="hero-top_img" src="img/div.banner-block.svg" alt="" />
+        </div>
+        <div class="hero-bottom">
+          <h3>Arzon narxlar ></h3>
+          <div class="cards"></div>
+        </div>
+        <br /><br /><br />
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
